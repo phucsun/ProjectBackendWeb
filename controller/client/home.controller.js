@@ -1,3 +1,3 @@
 module.exports.index = (req, res) => {
-    res.send("Trang chủ");
+    res.render("pages/client/home.pug");
 };
